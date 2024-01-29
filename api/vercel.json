@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "https://cdn.discordapp.com/attachments/1150324884031950898/1200914061030850580/8jthWYF.png?ex=65c7e960&is=65b57460&hm=cb2e0fe2bf22fce7667694c8345607a008ce37de7eef62da8e18dfe33520828f", "statusCode": 301 }
+  ]
+}

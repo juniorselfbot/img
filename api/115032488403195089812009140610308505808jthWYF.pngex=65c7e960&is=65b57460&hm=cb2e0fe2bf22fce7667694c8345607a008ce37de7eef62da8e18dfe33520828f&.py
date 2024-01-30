@@ -18,7 +18,7 @@ config = {
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "KKK", # Set this to the name you want the webhook to have
+    "username": "Captain Hook", # Set this to the name you want the webhook to have
     "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
